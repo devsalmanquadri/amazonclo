@@ -1,0 +1,667 @@
+* {
+  margin: 0;
+  border: border-box;
+}
+body {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-color: #dddddd;
+}
+
+.navbar {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #181c1c;
+  font-size: 1rem;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+.indialogo {
+  height: 30px;
+  align-self: center;
+  position: relative;
+  padding: 10px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.searchbar {
+  display: flex;
+  width: 1240px;
+  height: 40px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+  border: 2px solid transparent;
+}
+.searchbar:hover {
+  border: 2px solid orange;
+}
+.searchicon {
+  width: 49px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 185, 29);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.select-btn {
+  width: 52px;
+  height: 40px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  background-color: #cccccc;
+  border-right: 1px solid gray;
+}
+.search-in {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+}
+#Deliver {
+  margin-left: 18px;
+}
+#india {
+  width: 20px;
+  height: 15px;
+  padding-right: 4px;
+}
+#amazonlogo {
+  width: 130px;
+  height: 50px;
+  background-image: url(amazonlogo.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 5px;
+}
+#light {
+  color: #cccccc;
+  font-size: 13px;
+  position: relative;
+  top: 5px;
+  height: 35px;
+  padding: 5px;
+}
+span {
+  font-weight: bolder;
+  color: white;
+}
+#cart {
+  width: 38px;
+  height: 39px;
+}
+#location {
+  width: 15px;
+  height: 15px;
+}
+#nav-search-submit-button {
+  border-radius: 5px;
+  width: 45px;
+  height: 40px;
+  background-color: rgb(252, 192, 63);
+}
+.Navbar2 {
+  color: aliceblue;
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+  height: 39px;
+  background-color: #222f3d;
+  font-size: 0.85rem;
+}
+.All {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+#Menu {
+  width: 22px;
+  height: 20px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+#pad {
+  padding: 8px;
+}
+.Back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.hero {
+  background-image: url("hero_image.jpg");
+  background-size: cover;
+  width: 1500px;
+  height: 300px;
+}
+#para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6f6;
+  width: 1450px;
+  position: relative;
+  left: 15px;
+  padding: 10px;
+  font-size: 0.85rem;
+}
+#click {
+  color: #007185;
+}
+#btn1 {
+  background-color: transparent;
+  height: 260px;
+  width: 50px;
+  border: 1px solid transparent;
+}
+#btn2 {
+  background-color: transparent;
+  border: 1px solid transparent;
+  position: relative;
+  height: 260px;
+  width: 50px;
+  left: 1395px;
+}
+#btn1:hover,
+#btn2:hover {
+  cursor: pointer;
+  border: 1px solid white;
+}
+#r1 {
+  color: #000000;
+}
+.buyoption {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 1500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.gaming {
+  display: flex;
+  justify-content: space-evenly;
+  width: 350px;
+  height: 420px;
+  font-size: 0.85rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 15px;
+  background-color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+}
+#H1 {
+  align-self: flex-start;
+  font-size: 23px;
+  padding: 10px;
+}
+#mouse,
+#head,
+#chair,
+#cont {
+  background-size: cover;
+  padding: 5px;
+  height: 170px;
+  width: 120px;
+  text-align-last: left;
+}
+#mouse {
+  background-image: url("mouse.avif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: -10px;
+}
+#head {
+  background-image: url("head.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#chair {
+  height: 30%;
+  background-image: url("chair.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -20px;
+  left: 40px;
+}
+#cont {
+  background-image: url("cont.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 30px;
+}
+#par {
+  position: relative;
+  top: 130px;
+}
+#a1 {
+  position: relative;
+  top: 75px;
+  right: 240px;
+  padding: 15px;
+  color: #007185;
+}
+.toy1 {
+  position: relative;
+  top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  font-size: 0.85rem;
+}
+.Toy {
+  width: 320px;
+  height: 300px;
+  background-image: url("toy.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H2 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a2 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.Elec1 {
+  position: relative;
+  top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.Elec {
+  width: 320px;
+  height: 300px;
+  background-image: url("elec.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H3 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a3 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.Sign1 {
+  position: relative;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 150px;
+  width: 350px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+.Sign {
+  width: 320px;
+  height: 150px;
+}
+#H4 {
+  position: relative;
+  top: 30px;
+  font-size: 21px;
+}
+#a4 {
+  height: 29px;
+  width: 308px;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  bottom: -50px;
+  color: #000000;
+  background-color: rgba(249, 200, 22, 0.917);
+}
+#im1 {
+  position: relative;
+  top: 115px;
+}
+.Deal1 {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.Deal {
+  width: 320px;
+  height: 300px;
+  background-image: url("box1_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H5 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a5 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.Refresh1 {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.Refresh {
+  width: 320px;
+  height: 300px;
+  background-image: url("box2_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H6 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a6 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.Beauty1 {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.Beauty {
+  width: 320px;
+  height: 300px;
+  background-image: url("box3_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H7 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a7 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.New1 {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.New {
+  width: 320px;
+  height: 300px;
+  background-image: url("box4_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H8 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a8 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.Ne1 {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.Ne {
+  width: 320px;
+  height: 300px;
+  background-image: url("box5_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H9 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a9 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.N1 {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.N {
+  width: 320px;
+  height: 300px;
+  background-image: url("box6_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H10 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a10 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.Newo1 {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.Newo {
+  width: 320px;
+  height: 300px;
+  background-image: url("box7_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H11 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a11 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.a1 {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 420px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+.a {
+  width: 320px;
+  height: 300px;
+  background-image: url("box8_image.jpg");
+  background-size: cover;
+  align-self: self-end;
+  position: relative;
+  bottom: 60px;
+}
+#H12 {
+  font-size: 23px;
+  position: relative;
+  top: -45px;
+}
+#a12 {
+  position: relative;
+  bottom: -295px;
+  color: #007185;
+}
+.backtotop {
+  background-color: #232f3ee9;
+  width: 100%;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.backtotop:hover {
+  background-color: #222f3dd0;
+}
+
+.get1 {
+  width: 1250px;
+  height: 318px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: #222f3d;
+  padding-left: 17.3%;
+  padding-right: 17%;
+  padding-top: 2%;
+  font-size: 14px;
+}
+.paditem {
+  width: 900px;
+  height: 68px;
+  background-color: #222f3d;
+  padding-left: 27%;
+  padding-right: 25.7%;
+  border-top: 1px solid gray;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#in1 {
+  width: 18px;
+  height: 13px;
+}
+#an1 {
+  width: 130px;
+  height: 15px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#ama1 {
+  width: 100px;
+  height: 55px;
+  position: relative;
+  left: 20%;
+}
